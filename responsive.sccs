@@ -1,0 +1,66 @@
+/* スマホ向けレイアウト */
+
+/* ブレイクポイントが670px以下の時のメディアクエリを設定してください */
+@media (max-width:670px) {
+  body{
+    width: 100%;
+  }
+  /* .lessonのwidthを100%に指定してください */
+  .lesson,.flesson,.slesson{  /* lessonクラスのCSSを指定してください */
+  width:50%;
+  margin-bottom:50px;
+  }
+  .top-wrapper{
+    background-position: center;
+  }
+  /* <footer>の中身を中央寄せにしてください。 */
+  footer{
+    text-align:center;
+  }
+  /* .btnのwidthを100%に指定してください */
+  .btn{
+    width:100%;
+  }
+
+header{
+  width: 100%;
+}
+   /* .facebookにmargin-bottom: 10px;を追加してください */
+  .facebook{
+    margin-bottom:10px;
+  }
+  .header-right{
+     display:none;
+   }
+
+   /* menu-iconクラスのdisplayをblockに指定してください  */
+   .menu-icon{
+     display:block;
+   }
+   .flow-wrapper{
+     height: 850px;
+   }
+  .flow-lessons{
+    padding-top: 30px;
+    float: left;
+    margin: 2em 0;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+    margin: -30px 10px;
+    padding: 30px 30px;
+    height: 650px;
+  }
+  .arrow-top {
+    width: 30px;
+    height: 30px;
+    border: 5px solid;
+    border-color: transparent transparent orange orange;
+    transform: rotate(-45deg);
+    margin-left: 220px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+.trouble-wrapper{
+  height: 1200px;
+}
+}
